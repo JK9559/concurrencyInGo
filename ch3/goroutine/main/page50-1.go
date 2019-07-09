@@ -1,3 +1,7 @@
+/*
+ * Copyright © 2019 wkang. All rights reserved.
+ */
+
 package main
 
 import (
@@ -5,7 +9,7 @@ import (
 	"sync"
 )
 
-func main()  {
+func main() {
 	// page50 - 1
 	var wg sync.WaitGroup
 	sayHello := func() {
