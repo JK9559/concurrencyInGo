@@ -41,6 +41,8 @@ func main() {
 	fmt.Println("s2:", s2)
 	fmt.Println("slice:", slice)
 
+	// s2 后新增元素200 容量不够 扩容，使用了新的底层数组，并且把容量翻倍变为10，这次修改是在新的底层数组修改
+	// 不影响slice 和 s1
 	s2 = append(s2, 200)
 
 	fmt.Println(">======[s2.append 200]======<")
@@ -48,12 +50,11 @@ func main() {
 	fmt.Println("s2:", s2)
 	fmt.Println("slice:", slice)
 
+	// 修改s1位置2的元素 影响到了slice 但是对于s2没影响
 	s1[2] = 20
 
 	fmt.Println(">======[s1[2] = 20]======<")
 	fmt.Println("s1:", s1)
 	fmt.Println("s2:", s2)
 	fmt.Println("slice:", slice)
-
-	//
 }
