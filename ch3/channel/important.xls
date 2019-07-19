@@ -1,0 +1,21 @@
+操作	Channel状态	结果
+Read	nil	阻塞
+	打开且非空	输出值
+	打开为空	阻塞
+	关闭	<默认值>false
+	只写	编译错误
+Write	nil	阻塞
+	打开且满	阻塞
+	打开不满	写入
+	关闭	panic
+	只读	编译错误
+Close	nil	panic
+	打开且非空	"关闭channel;
+读取成功,直到
+通道耗尽，然
+后读取通道默
+认值。"
+	打开为空	"关闭channel;
+读取通道的默认值"
+	关闭	panic
+	只读	编译错误
