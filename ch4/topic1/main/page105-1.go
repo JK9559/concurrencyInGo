@@ -20,6 +20,12 @@ func main() {
 		return completed
 	}
 
+	// 即使传入的channel不为空 运行时也会发生deadlock 因为不论如何dowork内的go func都不会被执行
+	// strings := make(chan string)
+	// strings <- "abccd"
+	// dowork(strings)
+
+	// 因为dowork内的go func不论如何都不会执行 函数内部的completed channel创建了就不会被释放 造成泄漏
 	dowork(nil)
 	fmt.Println("Done")
 }
