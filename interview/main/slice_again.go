@@ -47,6 +47,7 @@ func main() {
 	}
 	// 错误写法
 	for _, stu := range stus {
+		// 因为这里的stu是个临时变量 取这个变量的地址始终只有一个，不是实际slice的地址
 		m[stu.Name] = &stu
 	}
 
