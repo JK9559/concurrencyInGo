@@ -6,6 +6,9 @@ package main
 
 import "fmt"
 
+/*
+给定根号2约等于1.414，计算根号2小数点后10位的精确值
+*/
 func main() {
 	low := 1.4
 	high := 1.5
