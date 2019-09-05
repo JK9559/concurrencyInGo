@@ -18,6 +18,7 @@ func main() {
 	c := make(chan interface{})
 
 	go func() {
+		defer fmt.Println("go func is Done")
 		time.Sleep(5 * time.Second)
 		close(c)
 	}()
@@ -25,6 +26,7 @@ func main() {
 	fmt.Println("Blocking on read ...")
 
 	select {
+	// 这里的channel c一直为阻塞状态 直到close关闭了c，才触发了case语句 结束了对main goroutine的阻塞
 	case <-c:
 		fmt.Printf("UnBlocked %v later\n", time.Since(start))
 	}
