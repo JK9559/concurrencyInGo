@@ -33,6 +33,7 @@ func main() {
 		}
 	}()
 	// 遍历chan的方式
+	// 如果不close chan 那么range会报错
 	for integer := range intStream {
 		fmt.Printf("%v ", integer)
 	}

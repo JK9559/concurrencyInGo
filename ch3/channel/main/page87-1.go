@@ -6,6 +6,7 @@ package main
 
 /**
 首先明确：chan的默认值为nil 当我们对nil的channel做一些操作时(读 写 关闭)
+也就是说 对于nil的chan 读 写时 会阻塞 close的时候 会panic
 */
 
 func main() {
