@@ -9,6 +9,7 @@ import (
 WaitGroup
 */
 func main() {
+	// 这里对于WaitGroup的操作需要传引用 否则 函数体内的 wg.Done() 不生效报错
 	hello := func(wg *sync.WaitGroup, i int) {
 		defer wg.Done()
 		fmt.Printf("Hello from %v!\n", i)
