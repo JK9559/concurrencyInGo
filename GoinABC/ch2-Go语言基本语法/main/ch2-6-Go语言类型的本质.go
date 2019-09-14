@@ -50,4 +50,7 @@ func main() {
 	m := changeFunMap(mp)
 	fmt.Println(m)
 	fmt.Println(mp)
+
+	// 3. 结构类型
+
 }
