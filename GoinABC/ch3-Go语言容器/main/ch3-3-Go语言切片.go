@@ -33,5 +33,7 @@ func main() {
 	// 不仅声明了 还分配了空间 所以不是nil了
 	var sli2 = []int{}
 	fmt.Println(sli1 == nil)
+	fmt.Println(sli1)
 	fmt.Println(sli2 == nil)
+	fmt.Println(sli2)
 }
