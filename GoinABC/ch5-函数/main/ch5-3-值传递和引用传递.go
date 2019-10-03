@@ -8,11 +8,13 @@ import "fmt"
 
 func modifyVal(s []int) {
 	s[1] = 3
+	fmt.Printf("%p\n", &s)
 	fmt.Println("in func:", s)
 }
 
 func modifyVal1(s []int) {
 	s = append(s, 3)
+	fmt.Printf("%p\n", &s)
 	fmt.Println("in func:", s)
 }
 
