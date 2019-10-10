@@ -31,4 +31,10 @@ func main() {
 	// Wait将阻塞 main goroutine，直到所有的goroutine表明他们已经退出
 	wg.Wait()
 	fmt.Println("All goroutine complete!")
+
+	/*
+		2nd goroutine sleeping
+		1st goroutine sleeping
+		All goroutine complete!
+	*/
 }

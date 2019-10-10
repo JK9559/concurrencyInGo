@@ -30,4 +30,9 @@ func main() {
 	once.Do(increment)
 
 	fmt.Printf("Count is %d\n", count)
+
+	/*
+		This is Decrement func
+		Count is -1
+	*/
 }

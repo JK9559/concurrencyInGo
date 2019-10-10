@@ -49,4 +49,289 @@ func main() {
 		// 退出条件临界区
 		c.L.Unlock()
 	}
+	/*
+		Adding to Queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Removed from queue
+		Adding to Queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Removed from queue
+		Adding to Queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Removed from queue
+		Adding to Queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Removed from queue
+		Adding to Queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Removed from queue
+		Adding to Queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Removed from queue
+		Adding to Queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Removed from queue
+		Adding to Queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Removed from queue
+		Adding to Queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Removed from queue
+		Adding to Queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Removed from queue
+		Adding to Queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Removed from queue
+		Adding to Queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Removed from queue
+		Adding to Queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Removed from queue
+		Adding to Queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+		Yes,Length now is:  2
+		Removed from queue
+		Adding to Queue
+	*/
 }

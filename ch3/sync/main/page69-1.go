@@ -32,4 +32,8 @@ func main() {
 
 	increments.Wait()
 	fmt.Printf("Count is %d\n", count)
+
+	/*
+		Count is 1
+	*/
 }

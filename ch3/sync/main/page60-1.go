@@ -23,4 +23,11 @@ func main() {
 		go hello(&wg, i)
 	}
 	wg.Wait()
+	/*
+		Hello from 2!
+		Hello from 1!
+		Hello from 4!
+		Hello from 5!
+		Hello from 3!
+	*/
 }

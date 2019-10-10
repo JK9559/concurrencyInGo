@@ -57,4 +57,10 @@ func main() {
 	button.Clicked.Broadcast()
 
 	clickRegistered.Wait()
+
+	/*
+		Mouse clicked
+		Maximizing window.
+		Displaying annoying dialog box!
+	*/
 }

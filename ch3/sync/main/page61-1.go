@@ -49,4 +49,20 @@ func main() {
 
 	arithmetic.Wait()
 	fmt.Println("Arithmetic complete")
+
+	/*
+		Incrementing:1
+		Decrementing:0
+		Decrementing:-1
+		Incrementing:0
+		Decrementing:-1
+		Incrementing:0
+		Incrementing:1
+		Incrementing:2
+		Incrementing:3
+		Decrementing:2
+		Decrementing:1
+		Decrementing:0
+		Arithmetic complete
+	*/
 }
