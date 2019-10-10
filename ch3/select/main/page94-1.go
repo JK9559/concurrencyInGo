@@ -27,4 +27,9 @@ func main() {
 		}
 	}
 	fmt.Printf("c1Count is: %d\nc2Count is: %d", c1Count, c2Count)
+
+	/*
+		c1Count is: 511
+		c2Count is: 489
+	*/
 }

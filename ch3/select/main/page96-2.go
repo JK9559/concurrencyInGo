@@ -31,4 +31,8 @@ loop:
 	}
 
 	fmt.Printf("Achieved %d loops before signalled to stop\n", workCount)
+
+	/*
+		Achieved 5 loops before signalled to stop
+	*/
 }

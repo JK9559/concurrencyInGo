@@ -30,4 +30,7 @@ func main() {
 	case <-c2:
 		fmt.Println("hah")
 	}
+	/*
+		hah
+	*/
 }

@@ -30,4 +30,10 @@ func main() {
 	case <-c:
 		fmt.Printf("UnBlocked %v later\n", time.Since(start))
 	}
+
+	/*
+		Blocking on read ...
+		go func is Done
+		UnBlocked 5.0001756s later
+	*/
 }

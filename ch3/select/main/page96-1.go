@@ -25,4 +25,8 @@ func main() {
 	default:
 		fmt.Printf("no channel can be used. after %v\n", time.Since(start))
 	}
+
+	/*
+		no channel can be used. after 0s
+	*/
 }
