@@ -45,4 +45,9 @@ func main() {
 	}
 	wg.Wait()
 	fmt.Printf("%d instance were created!", numCalCreated)
+
+	/*
+		4 instance were created!
+		8 instance were created!
+	*/
 }

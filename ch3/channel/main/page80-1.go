@@ -37,4 +37,8 @@ func main() {
 	for integer := range intStream {
 		fmt.Printf("%v ", integer)
 	}
+	// 运行结果
+	// true , this is a string
+	// false ,
+	// 0 1 2 3 4
 }

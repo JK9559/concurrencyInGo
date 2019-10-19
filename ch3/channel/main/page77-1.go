@@ -43,4 +43,13 @@ func main() {
 	// 以下两个操作会报错
 	// <-writeStream : invalid operation: <-writeStream (receive from send-only type chan<- interface {})
 	// readStream <- "abc" : invalid operation: readStream <- "abc" (send to receive-only type <-chan interface {})
+
+	// 运行结果
+	// 0xc00004a060
+	// 0xc00004a0c0
+	// 0xc00004a120
+	// this is a string
+	// 0xc00004a1e0
+	// 0xc00004a240
+
 }

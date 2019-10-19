@@ -26,4 +26,9 @@ func main() {
 	// 当调用完成时，调用者调用Put方法吧工作的实例归还给池中，以供其他进程使用
 	myPool.Put(instance)
 	myPool.Get()
+
+	/*
+		Creating a new instance
+		Creating a new instance
+	*/
 }
